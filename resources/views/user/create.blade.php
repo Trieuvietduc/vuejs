@@ -1,5 +1,6 @@
 @extends('layout.app')
 @section('content')
+123
     <div>
         @if ($errors->any)
             @foreach ($errors->all() as $item)

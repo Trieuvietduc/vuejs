@@ -61,7 +61,6 @@ export default {
         Field,
         ErrorMessage,
         VeeForm,
-
     },
     error() {
         let messError = {
@@ -106,8 +105,6 @@ export default {
         onSubmit() {
             this.$refs.formData.submit();
         }
-
-
     }
 
 }
@@ -117,7 +114,6 @@ input,
 label {
     display: block;
     margin-top: 10px;
-
 }
 
 input+span {
